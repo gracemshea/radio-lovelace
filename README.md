@@ -3,7 +3,7 @@
 ## At a Glance
 
 - Individual, [stage 1](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md#stage-1) project
-- To be completed in class, **DATE**. No pull request is required.
+- To be completed in class, Friday the 14th. No pull request is required.
 
 ## Learning Goals
 
@@ -12,6 +12,8 @@ This project is designed to exercise the following skills:
 - Reading and understanding a substantial amount of existing React code
 - Lifting React state from a child component to a parent component
 - Event handling in React across several levels of nested components
+
+There will be an instructor solution distributed to both classes. Take your best crack at this code, and then compare your work with our solution by looking through the source in the provided solution.
 
 ## Introduction
 
@@ -75,7 +77,12 @@ A "favorite" track that is sent to the top should continue to be a favorite.
 - Is the component that maintains the state the same as the component where the event occurs? If not, how will you communicate between components?
 - Draw a diagram of the flow of rendering and callbacks in your app so far, similar to the one we drew in class.
 
-### Wave 3: Switch Lists
+
+### Optional Enhancements
+
+Don't even read this list until you've completed the core requirements.
+
+#### Feature: Switch Lists
 
 When the user clicks the ↔ button on a track, that track should move to the top of the other playlist.
 
@@ -89,9 +96,7 @@ A "favorite" track that switches lists should continue to be a favorite.
 - Is the component that maintains the state the same as the component where the event occurs? If not, how will you communicate between components?
 - Draw a diagram of the flow of rendering and callbacks in your app so far, similar to the one we drew in class.
 
-### Optional Enhancements
-
-Don't even read this list until you've completed the core requirements.
+**Other Enhancements:**
 
 - Instead of splitting the list of tracks down the middle, write some code that splits the list in two so that the play times are as close as possible. What is the time complexity of your code? What is `n`?
 - Replace the "send to top" button with two buttons, "up" and "down", that move a track up or down one position in its playlist
